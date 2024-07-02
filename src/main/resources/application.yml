@@ -1,0 +1,18 @@
+spring:
+    application:
+      name: restfulspringboot
+
+    datasource:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/rest_with_springboot?useTimezone=true&serverTimezone=UTC
+      username: root
+      password: 6337311
+
+    jpa:
+      hibernate:
+        ddl-auto: none
+      show-sql: false #log de instruções SQL geradas pelo hibernate
+      open-in-view: false
+
+
+    
